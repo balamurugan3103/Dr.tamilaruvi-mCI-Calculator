@@ -17,7 +17,7 @@ import "./App.css";
     const ageValue = Number(age);
     const ktvValue = Number(ktv);
     const creatinineValue = Number(creatinine);
-
+    const lastValue = creatinineValue * 88.0;
     if (
       age.trim() === "" ||
       ktv.trim() === "" ||
@@ -134,6 +134,9 @@ import "./App.css";
             <p>Calculated mCI</p>
             <h2>{result.toFixed(2)}</h2>
             <span>mg/kg/day</span>
+            <h2>{result.toFixed(2) * 88.0}</h2>
+            <span>µmol/L</span>
+            
           </section>
         )}
 
