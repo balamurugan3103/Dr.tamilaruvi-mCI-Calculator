@@ -64,7 +64,7 @@ import "./App.css";
   return (
     <main className="page">
       <section className="calculator">
-        <p className="eyebrow">TAMILARUVI'S MCI CALCULATOR</p>
+        <p className="eyebrow">Dr.TAMILARUVI'S MCI CALCULATOR</p>
         <h1>Modified Creatinine Index</h1>
         <p className="subtitle">
           Calculate mCI for adult hemodialysis patients.
