@@ -17,7 +17,6 @@ import "./App.css";
     const ageValue = Number(age);
     const ktvValue = Number(ktv);
     const creatinineValue = Number(creatinine);
-    const lastValue = creatinineValue * 88.0;
     if (
       age.trim() === "" ||
       ktv.trim() === "" ||
